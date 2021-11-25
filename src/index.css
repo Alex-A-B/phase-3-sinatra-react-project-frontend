@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+nav a {
+  display: inline-block;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: darkslategrey;
+  border-bottom: 2px solid darkslategrey;
+  transition: 0.1s;
+}
+
+nav a:hover,
+nav a:active {
+  color: darkslategrey;
+  border-bottom: 2px solid darkslategrey;
+}
+
+nav a.active {
+  color: slateblue;
+}
