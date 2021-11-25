@@ -13,7 +13,7 @@ function ItemCard( { item, onRemoveItem }) {
     return (
         <li className="item-card">
             {item.item_name}
-            <button onClick={handleDeleteClick}>  🗑  </button>
+            <button onClick={handleDeleteClick}> 🗑 delete 🗑 </button>
             <ul>
                 <li>{item.item_description}</li>
             </ul>

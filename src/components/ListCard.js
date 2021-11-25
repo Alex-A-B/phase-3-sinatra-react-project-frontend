@@ -18,7 +18,7 @@ function ListCard( { list, onRemoveList }) {
             >
               <h4>{list.list_name}</h4>
             </Link>
-            <button onClick={handleDeleteClick}>  🗑  </button>
+            <button onClick={handleDeleteClick}> 🗑 delete 🗑 </button>
         </div>
     )
 }
